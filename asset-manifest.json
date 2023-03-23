@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/http//ProjectSupriya.github.io/Portfolio/static/css/main.18174025.css",
+    "main.js": "/http//ProjectSupriya.github.io/Portfolio/static/js/main.a7044b21.js",
+    "static/media/Resume.pdf": "/http//ProjectSupriya.github.io/Portfolio/static/media/Resume.d45f634517c798debb6f.pdf",
+    "index.html": "/http//ProjectSupriya.github.io/Portfolio/index.html",
+    "main.18174025.css.map": "/http//ProjectSupriya.github.io/Portfolio/static/css/main.18174025.css.map",
+    "main.a7044b21.js.map": "/http//ProjectSupriya.github.io/Portfolio/static/js/main.a7044b21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18174025.css",
+    "static/js/main.a7044b21.js"
+  ]
+}
