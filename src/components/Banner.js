@@ -3,14 +3,14 @@ import Pdf from '../Documents/Resume.pdf';
 import {
   FaGithub,
   FaLinkedin,
-  FaPlay,
+  FaEnvelope
 } from "react-icons/fa";
 const Banner = () => {
   const [state] = React.useState({
     textone:"WELCOME TO MY WORLD",
     title: "Hi, I'm Supriya Patil",
     text:
-      "I`m Supriya, Front-end developer with greater than 1 year \
+      "FrontEnd developer with greater than 1+ year \
     experience in this field​",
     image: "/images/woman.png",
   });
@@ -23,24 +23,24 @@ const Banner = () => {
               <div className="header__section">
                 <ul className="header__ul">
                   <li>
-                  <a href="https://github.com/ProjectSupriya" target="_blank" className="cl" >
+                  <a href="https://github.com/ProjectSupriya" target="_blank"  rel="noreferrer" className="cl" >
                     <FaGithub className="headerIcon" /></a>
                   </li>
                   <li>
-                  <a href="https://www.linkedin.com/in/supriya-patil-1402961b2" target="_blank" className="cl">
+                  <a href="https://www.linkedin.com/in/supriya-patil-1402961b2" target="_blank"  rel="noreferrer" className="cl">
                     <FaLinkedin className="headerIcon" /></a>
+                  </li>
+                  <li>
+                  <a href="mailto:supriyapatil1228@gmail.com" target="_blank" className="cl">
+                    <FaEnvelope className="headerIcon" /></a>
                   </li>
                 </ul>
                 <h5>{state.textone}</h5>
                 <h1>{state.title}</h1>
                 <p>{state.text}</p>
                 <div className="header__buttons">
-                  <a href={Pdf} target = "_blank" className="btn btn-outline">
+                  <a href={Pdf} target = "_blank"  rel="noreferrer" className="btn btn-outline">
                    Resume
-                  </a>
-                  &nbsp;&nbsp;&nbsp;
-                  <a href={Pdf} target = "_blank" className="btn btn-smart">
-                    <FaPlay className="play" />
                   </a>
                 </div>
               </div>

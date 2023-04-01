@@ -9,34 +9,42 @@ const Skills = () => {
     {
       id: 1,
       heading: "HTML",
+      percentage: "80%",
     },
     {
       id: 2,
       heading: "CSS",
+      percentage: "70%",
     },
     {
       id: 3,
       heading: "JavaScript",
+      percentage: "60%",
     },
     {
       id: 4,
       heading: "React Js",
+      percentage: "50%",
     },
     {
       id: 5,
       heading: "Wordpress",
+      percentage: "40%",
     },
     {
       id: 6,
       heading: "Bootstrap",
+      percentage: "30%",
     },
     {
       id: 7,
       heading: "Material UI",
+      percentage: "20%",
     },
     {
       id: 8,
       heading: "Responsive UI  Design",
+      percentage: "10%",
     },
   ]);
   return (
@@ -57,6 +65,7 @@ const Skills = () => {
                   {info.icon}
                   <div className="projects__box-header">{info.heading}</div>
                   <div className="projects__box-p">{info.text}</div>
+                  {/* <div className="projects__box-p">{info.percentage}</div> */}
                 </div>
               </div>
             ))}

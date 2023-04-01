@@ -227,7 +227,20 @@ color:#fff;
 .projects__box-p {
   font-size: 14px;
   color: #dfdfdf;
+  padding-bottom: 10px;
 }
+.projects__box-p1 {
+  font-size: 16px;
+  color: #dfdfdf;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness:2px;
+}
+.projects__box-p1:hover {
+  font-weight:600;
+  color: #dfdfdf;
+}
+
 .about {
   width: 100%;
   background: #23263a;
@@ -266,7 +279,6 @@ color:#fff;
 .info__contacts .col-6 {
   margin: 10px 0;
 }
-
 
 .contact {
   padding: 50px 0;
